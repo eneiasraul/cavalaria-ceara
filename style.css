@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid black;
+    max-width: 600px;
+  }
+  
+  div {
+    margin: 10px 0;
+  }
+  
+  label {
+    display: inline-block;
+    width: 200px;
+  }
+  
+  input[type="number"],
+  select {
+    width: 150px;
+  }
+  
+  button {
+    margin: 10px 0;
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  #possibleCeremonies {
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  #possibleCeremonies h2 {
+    margin: 10px 0;
+  }
+  
+  #possibleCeremonies ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #possibleCeremonies li {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: #f2f2f2;
+  }
+  
