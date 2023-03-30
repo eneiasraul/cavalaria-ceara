@@ -7,49 +7,49 @@ function verificarCerimonias() {
     switch (currentCeremony) {
       case "Nobre Cavaleiro":
         if (age >= 16 && lastCeremony >= 6) {
-          possibleCeremonies = "Você está apto para participar das cerimônias: Capela.";
+          possibleCeremonies = "Você está apto para participar das cerimônias: Cavaleiro da Capela.";
         } else {
           possibleCeremonies = "Você ainda não atingiu as condições necessárias para participar de outras cerimônias.";
         }
         break;
         case "Cavaleiro da Capela":
             if (age >= 18 || lastCeremony >= 6) {
-              possibleCeremonies = "Você está apto para participar das cerimônias: Salém.";
+              possibleCeremonies = "Você está apto para participar das cerimônias: Cavaleiro da Cruz de Salém.";
             } else {
               possibleCeremonies = "Você ainda não atingiu as condições necessárias para participar de outras cerimônias.";
             }
             break;
       case "Cavaleiro da Cruz de Salém":
         if (age >= 18 || lastCeremony >= 6) {
-          possibleCeremonies = "Você está apto para participar das cerimônias: Ex-Templário.";
+          possibleCeremonies = "Você está apto para participar das cerimônias: Cavaleiro Ex-Templário.";
         } else {
           possibleCeremonies = "Você ainda não atingiu as condições necessárias para participar de outras cerimônias.";
         }
         break;
       case "Cavaleiro Ex-Templário":
         if (age >= 18 || lastCeremony >= 6) {
-          possibleCeremonies = "Você está apto para participar das cerimônias: Tríade.";
+          possibleCeremonies = "Você está apto para participar das cerimônias: Cavaleiro da Tríade.";
         } else {
           possibleCeremonies = "Você ainda não atingiu as condições necessárias para participar de outras cerimônias.";
         }
         break;
       case "Cavaleiro da Tríade":
         if (age >= 19 || lastCeremony >= 6) {
-          possibleCeremonies = "Você está apto para participar das cerimônias: Ébano.";
+          possibleCeremonies = "Você está apto para participar das cerimônias: Cavaleiro do Ébano.";
         } else {
           possibleCeremonies = "Você ainda não atingiu as condições necessárias para participar de outras cerimônias.";
         }
         break;
       case "Cavaleiro do Ébano":
         if (age >= 19 || lastCeremony >= 6) {
-          possibleCeremonies = "Você está apto para participar das cerimônias: Anon.";
+          possibleCeremonies = "Você está apto para participar das cerimônias: Cavaleiro Anon.";
         } else {
           possibleCeremonies = "Você ainda não atingiu as condições necessárias para participar de outras cerimônias.";
         }
         break;
       case "Cavaleiro Anon":
         if (age >= 20 || lastCeremony >= 6) {
-          possibleCeremonies = "Você está apto para participar das cerimônias: Cadência.";
+          possibleCeremonies = "Você está apto para participar das cerimônias: Cavaleiro da Cadência.";
         } else {
           possibleCeremonies = "Você ainda não atingiu as condições necessárias para participar de outras cerimônias.";
         }
