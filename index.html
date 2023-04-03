@@ -2,41 +2,42 @@
 <html>
 <html lang="pt-br">
   <head>
-    <lag></lag>
     <meta charset="UTF-8">
     <title>Progressão no Nobre Rito</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1>Progressão no Nobre Rito</h1>
-    <form>
-      <div>
-        <label for="age">Idade:</label>
-        <input type="number" id="age" name="age">
+    <div class="container">
+        <h1>Progressão no Nobre Rito</h1>
+        <form>
+            <div>
+                <label for="age">Idade:</label>
+                <input type="number" id="age" name="age">
+            </div>
+            <div>
+                <label for="lastCeremony">Número de meses desde a última cerimônia:</label>
+                <input type="number" id="lastCeremony" name="lastCeremony">
       </div>
       <div>
-        <label for="lastCeremony">Última Cerimônia (em meses):</label>
-        <input type="number" id="lastCeremony" name="lastCeremony">
-      </div>
-      <div>
-        <label for="currentCeremony">Cerimônia Atual:</label>
-        <select id="currentCeremony" name="currentCeremony">
-          <option value="Nobre Cavaleiro">Nobre Cavaleiro</option>
-          <option value="Cavaleiro da Capela">Cavaleiro da Capela</option>
-          <option value="Cavaleiro da Cruz de Salém">Cavaleiro da Cruz de Salém</option>
-          <option value="Cavaleiro Ex-Templário">Cavaleiro Ex-Templário</option>
-          <option value="Cavaleiro da Tríade">Cavaleiro da Tríade</option>
-          <option value="Cavaleiro do Ébano">Cavaleiro do Ébano</option>
-          <option value="Cavaleiro Anon">Cavaleiro Anon</option>
-          <option value="Cavaleiro da Cadência">Cavaleiro da Cadência</option>
-        </select>
-      </div>
-      <label>
-        <input type="checkbox" name="certificado" value="sim">
-        Eu confirmo que estou certificado
-      </label>      
-      <button type="button" onclick="verificarCerimonias()">Validar</button>
+          <label for="currentCeremony">Cerimônia Atual:</label>
+          <select id="currentCeremony" name="currentCeremony">
+              <option value="Nobre Cavaleiro">Nobre Cavaleiro</option>
+              <option value="Cavaleiro da Capela">Cavaleiro da Capela</option>
+              <option value="Cavaleiro da Cruz de Salém">Cavaleiro da Cruz de Salém</option>
+              <option value="Cavaleiro Ex-Templário">Cavaleiro Ex-Templário</option>
+              <option value="Cavaleiro da Tríade">Cavaleiro da Tríade</option>
+              <option value="Cavaleiro do Ébano">Cavaleiro do Ébano</option>
+              <option value="Cavaleiro Anon">Cavaleiro Anon</option>
+              <option value="Cavaleiro da Cadência">Cavaleiro da Cadência</option>
+            </select>
+        </div>
+        <label>
+            <input type="checkbox" name="certificado" value="sim">
+            Confirmo que estou certificado
+        </label>      
+        <button type="button" onclick="verificarCerimonias()">Validar</button>
     </form>
+</div>
     <div id="possibleCeremonies"></div>
     <script src="script.js"></script>
   </body>
