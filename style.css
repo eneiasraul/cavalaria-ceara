@@ -4,13 +4,13 @@
 .container{
   width: 100vw;
   height: 100vh;
-  background-image: url(assets/background.jpg);
+  background-image: url(assets/bg.jpg);
   background-size: cover;
 }
   h1 {
     text-align: center;
-    background-color: #1f6f0a;
-    color: whitesmoke;
+    background: linear-gradient(to right, #005A00 0%, #000 100%);
+    color: #FFF;
     height: 10vh;
   }
   
@@ -21,14 +21,23 @@
   }
   .formulario{
     margin-top: 5vh;
-    margin-bottom: 2vh;
   }
-  
+  .idade{
+    margin-bottom: 5vh;
+  }
+  .ultimacerimonia{
+    margin-bottom: 5vh;
+  }
+  .cerimonialatual{
+    margin-bottom: 5vh;
+  }
+  .certificado{
+    margin-bottom: 5vh;
+  }
   div {
     margin: 10px 0;
   }
 
-  
   input[type="number"],
   select {
     width: 150px;
@@ -49,9 +58,9 @@
   }
   
   #possibleCeremonies {
-    margin: 20px auto;
-    max-width: 600px;
-    text-align: center;
+    display: flex;
+    margin: auto;
+    text-align: justify;
   }
   
   #possibleCeremonies h2 {
