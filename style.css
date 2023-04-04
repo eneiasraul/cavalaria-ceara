@@ -51,9 +51,16 @@
     }
 
   .idade{
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-  }
+      margin-top: 5vh;
+      margin-bottom: 5vh;
+    }
+    
+    @media only screen and (max-width: 768px) {
+      .idade {
+        font-size: 0.8rem;
+      }
+    }
+
   .ultimacerimonia{
     margin-bottom: 5vh;
   }
