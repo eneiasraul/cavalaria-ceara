@@ -62,7 +62,15 @@
     }
 
   .ultimacerimonia{
-    margin-bottom: 5vh;
+      margin-bottom: 5vh;
+    }
+    
+    @media only screen and (max-width: 768px) {
+      .ultimacerimonia {
+        font-size: 0.8rem;
+      }
+    }
+    
   }
   .cerimonialatual{
     margin-bottom: 5vh;
