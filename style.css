@@ -19,10 +19,18 @@
     flex-direction: column-reverse;
   }
   .titulo{
-  font-weight: bold;
-    margin-top: 5vh;
-    margin-bottom: 3vh;
-  }
+      font-weight: bold;
+      margin-top: 5vh;
+      margin-bottom: 3vh;
+      font-size: 2rem;
+      text-align: center;
+    }
+    
+    @media only screen and (max-width: 768px) {
+      .titulo {
+        font-size: 1.5rem;
+      }
+    }
   
   form {
     display: flex;
