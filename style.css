@@ -71,10 +71,16 @@
       }
     }
     
-  }
-  .cerimonialatual{
-    margin-bottom: 5vh;
-  }
+    .cerimoniaatual {
+      margin-bottom: 5vh;
+    }
+    
+    @media only screen and (max-width: 768px) {
+      .cerimoniaatual {
+        font-size: 0.8rem;
+      }
+    }
+    
   .certificado{
     margin-bottom: 5vh;
   }
