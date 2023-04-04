@@ -2,11 +2,13 @@
   font-family: 'Poppins', sans-serif;
   }
 .container{
-  width: 100vw;
-  height: 100vh;
-  background-image: url(assets/background.jpg);
-  background-size: cover;
-}
+    width: 100vw;
+    height: 100vh;
+    background-image: url(assets/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
 
   .header {
     text-align: center;
