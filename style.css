@@ -4,14 +4,22 @@
 .container{
   width: 100vw;
   height: 100vh;
-  background-image: url(assets/bg.jpg);
+  background-image: url(assets/background.jpg);
   background-size: cover;
 }
-  h1 {
+
+  .header {
     text-align: center;
     background: linear-gradient(to right, #005A00 0%, #000 100%);
     color: #FFF;
     height: 10vh;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .titulo{
+  font-weight: bold;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
   }
   
   form {
@@ -44,13 +52,15 @@
   }
   
   button {
-    margin: 10px 0;
-    padding: 5px 10px;
+    margin: 5vh 0;
+    padding: 1vh 2vh;
     font-size: 16px;
-    background-color: #4CAF50;
+    background-color: #1C4006;
     color: white;
     border: none;
+    border-radius: 1vh;
     cursor: pointer;
+    margin-left: 5vh;
   }
   
   button:hover {
