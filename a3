@@ -1,0 +1,137 @@
+[33mcommit 774875255a6e2788a6af5dfc9e8298d2f3db5d0e[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: eneiasraul <raulsantana05@hotmail.com>
+Date:   Tue Apr 4 19:39:57 2023 -0300
+
+    Editando textos do forms
+
+[33mcommit 6962d430347b7125ef30d9fdb4504883c6c0a715[m
+Author: eneiasraul <raulsantana05@hotmail.com>
+Date:   Mon Apr 3 23:19:32 2023 -0300
+
+    Resolvendo problemas no media query
+
+[33mcommit 8c3da5b3c790e5ba2f3801707159624aaf83e71f[m
+Author: eneiasraul <raulsantana05@hotmail.com>
+Date:   Mon Apr 3 23:10:02 2023 -0300
+
+    Adicionando rodape
+
+[33mcommit b62e03a31d1f21cefffbae1a812502b51b4f6d5e[m
+Author: eneiasraul <raulsantana05@hotmail.com>
+Date:   Mon Apr 3 22:45:58 2023 -0300
+
+    Ajustando fonte para telas menores
+
+[33mcommit ad7635ad2397c09b8a1e72f4540d314fd6d34e3f[m
+Author: eneiasraul <raulsantana05@hotmail.com>
+Date:   Mon Apr 3 22:43:47 2023 -0300
+
+    Redimensionando cerimoniaatual para telas menores
+
+[33mcommit 96c9636ec246bb142cfbc350af74217224ea2d2d[m
+Author: eneiasraul <raulsantana05@hotmail.com>
+Date:   Mon Apr 3 22:42:46 2023 -0300
+
+    Redimensionando class ultimacerimonia para telas menores
+
+[33mcommit 0765dcf0545026b52d3ff2a5485e7bca137046e8[m
+Author: eneiasraul <raulsantana05@hotmail.com>
+Date:   Mon Apr 3 22:42:03 2023 -0300
+
+    Redimensionando a tela idade para telas menores
+
+[33mcommit 1a37c8ef94c43225494a45ae506437a6cb971f97[m
+Author: eneiasraul <raulsantana05@hotmail.com>
+Date:   Mon Apr 3 22:41:03 2023 -0300
+
+    Redimensionando a class formulario
+
+[33mcommit 5fbcfa1a73cbba7c57be565c711f4691d405461e[m
+Author: eneiasraul <raulsantana05@hotmail.com>
+Date:   Mon Apr 3 22:38:33 2023 -0300
+
+    Deixando fontes da class titulo responsivo
+
+[33mcommit 60c6cf371ca32727a700800f1ca6074c8d75cb90[m
+Author: eneiasraul <raulsantana05@hotmail.com>
+Date:   Mon Apr 3 22:37:19 2023 -0300
+
+    Ajustando tela de fundo para que redimensione com a tela
+
+[33mcommit e6767b266ae865297d3ee9cd8f99219459362fc1[m
+Author: eneiasraul <raulsantana05@hotmail.com>
+Date:   Mon Apr 3 22:32:27 2023 -0300
+
+    Ajustando mensagem de validação
+
+[33mcommit 102f4e65a58f5d4aabd496ddcbf5214f2783ac07[m
+Author: eneiasraul <raulsantana05@hotmail.com>
+Date:   Mon Apr 3 22:22:36 2023 -0300
+
+    Estilizando mensagem de verificação
+
+[33mcommit e554746f09f72995677ef0c26c5e5137c2c38b63[m
+Author: eneiasraul <raulsantana05@hotmail.com>
+Date:   Mon Apr 3 22:10:57 2023 -0300
+
+    Ajustando tamanhos de botões
+
+[33mcommit 03d03c162a8f8b5d99d5341965566c095b0a52ec[m
+Author: eneiasraul <raulsantana05@hotmail.com>
+Date:   Mon Apr 3 21:42:23 2023 -0300
+
+    Mundando estilo background e header
+
+[33mcommit 22b2e19031501243db95633f92577f5c3237343f[m
+Author: eneiasraul <raulsantana05@hotmail.com>
+Date:   Mon Apr 3 21:15:03 2023 -0300
+
+    Adicionando a class formulario
+
+[33mcommit 6d1d7f495c7135d2f147a0d434e4368608871ee8[m
+Author: eneiasraul <raulsantana05@hotmail.com>
+Date:   Mon Apr 3 20:54:05 2023 -0300
+
+    Ajustando o formulario
+
+[33mcommit f731f1d4c2c069101a8e8eed5891d15db4afba9c[m
+Author: eneiasraul <raulsantana05@hotmail.com>
+Date:   Mon Apr 3 20:16:03 2023 -0300
+
+    Solucionando erro no stylesheet
+
+[33mcommit ee59f0dfa0e829eff79f10686bd54fc0f3d9a555[m
+Author: eneiasraul <raulsantana05@hotmail.com>
+Date:   Mon Apr 3 20:14:10 2023 -0300
+
+    Enditando imagem de fundo
+
+[33mcommit 7e08c7237e8dd23d4345675f280551670c3db86b[m
+Author: eneiasraul <raulsantana05@hotmail.com>
+Date:   Mon Apr 3 20:09:01 2023 -0300
+
+    Adicionar normalize.css
+
+[33mcommit a1e2176dff4af56a9fae8a130e8233ead0e09809[m
+Author: eneiasraul <raulsantana05@hotmail.com>
+Date:   Mon Apr 3 19:59:48 2023 -0300
+
+    Adicionando imagem de fundo
+
+[33mcommit 7473822be1f34285c18496292141d98421ffa32f[m
+Author: eneiasraul <raulsantana05@hotmail.com>
+Date:   Wed Mar 29 23:29:05 2023 -0300
+
+    Alterando nomes de cerimonias
+
+[33mcommit a3c0ccbb5f741b2c55c27fb456b50c273b349f16[m
+Author: eneiasraul <raulsantana05@hotmail.com>
+Date:   Wed Mar 29 23:24:43 2023 -0300
+
+    Alterando uma Label - Cavaleiro da Tríade
+
+[33mcommit 20bc82edbb7cc29ac2fc5af6a0c1e6ec115c36b3[m
+Author: eneiasraul <raulsantana05@hotmail.com>
+Date:   Wed Mar 29 23:07:02 2023 -0300
+
+    Primeiro commit da progressão de cerimônias
