@@ -29,17 +29,38 @@ function verificarCerimonias() {
           }
           break;
       case "Cavaleiro Ex-Templário":
-          if (age >= 21 || monthsBetween(mesesPassados, new Date()) >= 24) {
+          if (age >= 21 || monthsBetween(mesesPassados, new Date()) >= 6) {
               possibleCeremonies = "Você está apto para participar da cerimônia: Cavaleiro da Tríade.";
           } else {
               possibleCeremonies = "Você ainda não atingiu as condições necessárias para participar de outras cerimônias.";
           }
           break;
       case "Cavaleiro da Tríade":
-          if (age >= 21 || monthsBetween(mesesPassados, new Date()) >= 36) {
+          if (age >= 21 || monthsBetween(mesesPassados, new Date()) >= 6) {
               possibleCeremonies = "Você está apto para participar da cerimônia: Cavaleiro do Ébano.";
           } else {
               possibleCeremonies = "Você ainda não atingiu as condições necessárias para participar de outras cerimônias.";
           }
-         }
-          } 
+          case "Cavaleiro do Ébano":
+            if (age >= 19 || monthsBetween(mesesPassados, new Date()) >= 6) {
+              possibleCeremonies = "Você está apto para participar da cerimônia: Cavaleiro Anon.";
+            } else {
+              possibleCeremonies = "Você ainda não atingiu as condições necessárias para participar de outras cerimônias.";
+            }
+            break;
+          case "Cavaleiro Anon":
+            if (age >= 20 || monthsBetween(mesesPassados, new Date()) >= 6) {
+              possibleCeremonies = "Você está apto para participar da cerimônia: Cavaleiro da Cadência.";
+            } else {
+              possibleCeremonies = "Você ainda não atingiu as condições necessárias para participar de outras cerimônias.";
+            }
+            break;
+          default:
+            possibleCeremonies = "Parabéns pela sua jornada Sir Cavaleiro.";
+            break;
+        }
+      
+        document.getElementById("possibleCeremonies").innerHTML = possibleCeremonies;
+      }
+        
+           
