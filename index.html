@@ -21,8 +21,10 @@
                 <input type="number" id="age" name="age">
               </div>
               <div class="ultimacerimonia">
-                <label for="lastCeremony">Faz quantos meses desde a última cerimônia que você presenciou:</label>
-                <input type="number" id="lastCeremony" name="lastCeremony">
+                <label for="last-ceremony-date">Data da última cerimônia:</label>
+                <input type="date" id="last-ceremony-date" name="last-ceremony-date"><br><br>   
+                <label for="next-ceremony-date">Data da próxima cerimônia:</label>
+                <input type="date" id="next-ceremony-date" name="next-ceremony-date"><br><br>
               </div>
               <div class="cerimoniaatual">
                 <label for="currentCeremony">Cerimônia que você está atualmente:</label>
@@ -43,6 +45,7 @@
               </label>      
               <button type="button" onclick="verificarCerimonias()">Validar</button>
               <div id="possibleCeremonies"></div>
+              <div id="ceremonyDates"></div>
             </form>
             <footer>
               <p>Ditoso encontrá-lo cavaleiro! Desenvolvido por Enéias Raul. 102 e 192.</p>
