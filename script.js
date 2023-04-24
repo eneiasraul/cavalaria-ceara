@@ -8,7 +8,7 @@ function verificarCerimonias() {
 
   switch (currentCeremony) {
       case "Nobre Cavaleiro":
-          if (age >= 16 && monthsBetween(mesesPassados, new Date()) >= 6) {
+          if (age >= 16 && mesesPassados > 6) {
               possibleCeremonies = "Você está apto para participar da cerimônia: Cavaleiro da Capela.";
           } else {
               possibleCeremonies = "Você ainda não atingiu as condições necessárias para participar de outras cerimônias.";
