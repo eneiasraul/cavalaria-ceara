@@ -16,7 +16,7 @@ function verificarCerimonias() {
           break;
       case "Cavaleiro da Capela":
           if (age >= 18 || mesesPassados >=6 && mesesPassados % 12 >=0) {
-              possibleCeremonies = "Você está apto para participar da cerimônia: Cavaleiro da Cruz de Salém.";
+              possibleCeremonies = "Você está apto para participar da cerimônia: Cavaleiro da Cruz de Salem.";
           } else {
               possibleCeremonies = "Você ainda não atingiu as condições necessárias para participar de outras cerimônias.";
           }
