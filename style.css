@@ -144,6 +144,7 @@ font-size: 16px;
     border-radius: 1vh;
     color: #005a00;
     text-shadow: #000;
+    justify-content: center;
     flex-direction: column;
   }
   
